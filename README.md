@@ -1,6 +1,5 @@
 # Smart EV Charger Finder
 
-![Project Banner](your-image-url-here)
 
 ## 🚀 Overview
 Smart EV Charger Finder is a web application designed to help EV users locate the nearest charging stations using **Dijkstra's Algorithm**. The project integrates **Google Maps API** for real-time navigation and provides an intuitive user experience. Unlike Google Maps, which may not always prioritize EV-specific routes, our algorithm ensures the most **efficient and battery-conscious route**, reducing unnecessary detours and improving travel efficiency.
