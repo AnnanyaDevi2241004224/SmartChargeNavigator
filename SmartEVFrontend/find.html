@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find EV Charger</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiGWGGHbTi6CJDUehyocyoVsoUkCKQ5V4&libraries=places"></script>
+</head>
+<body>
+    <header>
+        <h1>Find an EV Charger</h1>
+    </header>
+
+    <main>
+        <label for="provider">Choose a provider:</label>
+        <select id="provider">
+            <option value="" disabled selected>-- Select Provider --</option>
+            <option value="Tata">Tata Power</option>
+            <option value="Hyundai">Hyundai</option>
+        </select>
+        <button id="findChargerBtn" disabled>Find Charger</button>
+
+        <button id="backToHome" onclick="location.href='index.html'">Back to Home</button>
+
+        <section id="results"></section>
+
+        <!-- Add Map Container -->
+        <div id="map" style="width: 100%; height: 400px; margin-top: 20px;"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Smart EV Charger Finder</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
